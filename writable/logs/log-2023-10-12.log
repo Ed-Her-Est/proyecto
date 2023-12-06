@@ -1,0 +1,20 @@
+CRITICAL - 2023-10-12 05:53:15 --> Invalid file: "usuario/login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('usuario/login.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('usuario/login', [], true)
+ 3 APPPATH\Controllers\Usuario.php(17): view('usuario/login')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuario->login()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\public\\index.php')
+CRITICAL - 2023-10-12 06:07:39 --> Invalid file: "usuario/create_account.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('usuario/create_account.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('usuario/create_account', [], true)
+ 3 APPPATH\Controllers\Usuario.php(22): view('usuario/create_account')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuario->createAccount()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\public\\index.php')

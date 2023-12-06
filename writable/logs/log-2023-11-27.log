@@ -1,0 +1,76 @@
+CRITICAL - 2023-11-27 00:23:08 --> Undefined variable $control
+in APPPATH\Views\control\mostrar.php on line 58.
+ 1 APPPATH\Views\control\mostrar.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $control', 'C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\app\\Views\\control\\mostrar.php', 58)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\app\\Views\\control\\mostrar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('control/mostrar', [], true)
+ 5 APPPATH\Controllers\Control.php(20): view('control/mostrar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Control->mostrar()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Control))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\public\\index.php')
+CRITICAL - 2023-11-27 00:33:51 --> syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+in APPPATH\Views\control\mostrar.php on line 91.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('control/mostrar', [], true)
+ 3 APPPATH\Controllers\Control.php(20): view('control/mostrar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Control->mostrar()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Control))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\public\\index.php')
+CRITICAL - 2023-11-27 00:34:25 --> syntax error, unexpected end of file
+in APPPATH\Views\control\mostrar.php on line 94.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('control/mostrar', [], true)
+ 3 APPPATH\Controllers\Control.php(20): view('control/mostrar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Control->mostrar()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Control))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\public\\index.php')
+CRITICAL - 2023-11-27 00:37:56 --> Trying to access array offset on value of type null
+in APPPATH\Views\control\editar.php on line 102.
+ 1 APPPATH\Views\control\editar.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\app\\Views\\control\\editar.php', 102)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\app\\Views\\control\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('control/editar', [], true)
+ 5 APPPATH\Controllers\Control.php(59): view('control/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Control->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Control))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\public\\index.php')
+CRITICAL - 2023-11-27 00:47:32 --> Trying to access array offset on value of type null
+in APPPATH\Views\control\editar.php on line 102.
+ 1 APPPATH\Views\control\editar.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\app\\Views\\control\\editar.php', 102)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\app\\Views\\control\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('control/editar', [], true)
+ 5 APPPATH\Controllers\Control.php(59): view('control/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Control->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Control))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\public\\index.php')
+CRITICAL - 2023-11-27 01:01:52 --> Invalid file: "citas/agregar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('citas/agregar.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('citas/agregar', [], true)
+ 3 APPPATH\Controllers\Citas.php(26): view('citas/agregar')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Citas->agregar()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Citas))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\public\\index.php')
+CRITICAL - 2023-11-27 01:06:56 --> Invalid file: "cita/mostrar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('cita/mostrar.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('cita/mostrar', [], true)
+ 3 APPPATH\Controllers\Cita.php(20): view('cita/mostrar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Cita->mostrar()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cita))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\public\\index.php')

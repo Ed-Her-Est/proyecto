@@ -1,0 +1,48 @@
+CRITICAL - 2023-10-13 05:51:53 --> Undefined variable $citas
+in APPPATH\Views\citas\agregar.php on line 28.
+ 1 APPPATH\Views\citas\agregar.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $citas', 'C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\app\\Views\\citas\\agregar.php', 28)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\app\\Views\\citas\\agregar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('citas/agregar', [], true)
+ 5 APPPATH\Controllers\Citas.php(31): view('citas/agregar')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Citas->agregar()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Citas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\public\\index.php')
+CRITICAL - 2023-10-13 05:54:14 --> Undefined variable $cita
+in APPPATH\Views\citas\agregar.php on line 28.
+ 1 APPPATH\Views\citas\agregar.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cita', 'C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\app\\Views\\citas\\agregar.php', 28)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\app\\Views\\citas\\agregar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('citas/agregar', [], true)
+ 5 APPPATH\Controllers\Citas.php(31): view('citas/agregar')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Citas->agregar()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Citas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\public\\index.php')
+CRITICAL - 2023-10-13 05:56:39 --> Undefined variable $cita
+in APPPATH\Views\citas\agregar.php on line 28.
+ 1 APPPATH\Views\citas\agregar.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cita', 'C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\app\\Views\\citas\\agregar.php', 28)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\app\\Views\\citas\\agregar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('citas/agregar', [], true)
+ 5 APPPATH\Controllers\Citas.php(25): view('citas/agregar')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Citas->agregar()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Citas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\public\\index.php')
+CRITICAL - 2023-10-13 06:00:14 --> Undefined variable $citas
+in APPPATH\Views\citas\agregar.php on line 28.
+ 1 APPPATH\Views\citas\agregar.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $citas', 'C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\app\\Views\\citas\\agregar.php', 28)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\app\\Views\\citas\\agregar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('citas/agregar', [], true)
+ 5 APPPATH\Controllers\Citas.php(25): view('citas/agregar')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Citas->agregar()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Citas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\public\\index.php')

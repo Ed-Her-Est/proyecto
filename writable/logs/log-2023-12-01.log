@@ -1,0 +1,189 @@
+CRITICAL - 2023-12-01 00:58:36 --> Invalid file: "usuario/login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('usuario/login.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('usuario/login', [], true)
+ 3 APPPATH\Controllers\Usuario.php(36): view('usuario/login')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuario->login()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\public\\index.php')
+CRITICAL - 2023-12-01 01:11:10 --> Invalid file: "usuario/login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('usuario/login.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('usuario/login', [], true)
+ 3 APPPATH\Controllers\Usuario.php(36): view('usuario/login')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuario->login()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\public\\index.php')
+CRITICAL - 2023-12-01 01:11:12 --> Invalid file: "usuario/login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('usuario/login.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('usuario/login', [], true)
+ 3 APPPATH\Controllers\Usuario.php(36): view('usuario/login')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuario->login()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\public\\index.php')
+CRITICAL - 2023-12-01 01:16:47 --> Allowed fields must be specified for model: "App\Models\UserModel"
+in SYSTEMPATH\Model.php on line 736.
+ 1 SYSTEMPATH\Model.php(736): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\UserModel')
+ 2 SYSTEMPATH\BaseModel.php(763): CodeIgniter\Model->doProtectFieldsForInsert([...])
+ 3 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Controllers\UserController.php(40): CodeIgniter\Model->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\public\\index.php')
+ERROR - 2023-12-01 01:18:15 --> mysqli_sql_exception: Table 'clinica.usuarios' doesn't exist in C:\Users\ED HER EST\Documents\proyectoFisio\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\ED HER EST\Documents\proyectoFisio\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `Us...', 0)
+#1 C:\Users\ED HER EST\Documents\proyectoFisio\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Us...')
+#2 C:\Users\ED HER EST\Documents\proyectoFisio\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Us...')
+#3 C:\Users\ED HER EST\Documents\proyectoFisio\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Us...', Array, false)
+#4 C:\Users\ED HER EST\Documents\proyectoFisio\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\ED HER EST\Documents\proyectoFisio\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\ED HER EST\Documents\proyectoFisio\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\ED HER EST\Documents\proyectoFisio\app\Controllers\UserController.php(40): CodeIgniter\Model->insert(Array)
+#8 C:\Users\ED HER EST\Documents\proyectoFisio\system\CodeIgniter.php(919): App\Controllers\UserController->index()
+#9 C:\Users\ED HER EST\Documents\proyectoFisio\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#10 C:\Users\ED HER EST\Documents\proyectoFisio\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\ED HER EST\Documents\proyectoFisio\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\ED HER EST\Documents\proyectoFisio\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ED HER...')
+#13 {main}
+CRITICAL - 2023-12-01 01:18:15 --> Table 'clinica.usuarios' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Usuarios` (`usuario`, `contrasenia`) VALUES (:usuario:, :contrasenia:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\UserController.php(40): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\public\\index.php')
+INFO - 2023-12-01 01:18:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-01 01:18:36 --> Undefined variable $nombre
+in APPPATH\Controllers\UserController.php on line 49.
+ 1 APPPATH\Controllers\UserController.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nombre', 'C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\app\\Controllers\\UserController.php', 49)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\public\\index.php')
+INFO - 2023-12-01 01:18:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 01:19:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 01:19:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 01:34:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 01:34:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 01:35:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 01:35:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 01:35:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 01:38:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 01:39:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 01:39:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 01:39:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 01:42:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 01:42:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 01:42:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 01:47:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 01:47:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 01:47:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 01:47:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 01:47:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 01:47:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 01:48:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 02:04:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 02:12:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 02:51:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-01 02:51:03 --> Undefined array key "ID_Usuario"
+in APPPATH\Controllers\UserController.php on line 55.
+ 1 APPPATH\Controllers\UserController.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ID_Usuario"', 'C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\app\\Controllers\\UserController.php', 55)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\public\\index.php')
+INFO - 2023-12-01 02:54:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 02:56:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-01 02:56:46 --> Undefined array key "ID_Fisioterapeuta"
+in APPPATH\Controllers\UserController.php on line 55.
+ 1 APPPATH\Controllers\UserController.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ID_Fisioterapeuta"', 'C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\app\\Controllers\\UserController.php', 55)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\public\\index.php')
+INFO - 2023-12-01 02:57:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-01 02:57:19 --> Undefined array key "ID_Fisioterapeuta"
+in APPPATH\Controllers\UserController.php on line 56.
+ 1 APPPATH\Controllers\UserController.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ID_Fisioterapeuta"', 'C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\app\\Controllers\\UserController.php', 56)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\public\\index.php')
+INFO - 2023-12-01 02:57:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-01 02:57:24 --> Undefined array key "ID_Fisioterapeuta"
+in APPPATH\Controllers\UserController.php on line 56.
+ 1 APPPATH\Controllers\UserController.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ID_Fisioterapeuta"', 'C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\app\\Controllers\\UserController.php', 56)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\public\\index.php')
+INFO - 2023-12-01 02:57:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 02:58:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-01 02:58:32 --> Undefined array key "fisioterapeuta"
+in APPPATH\Controllers\UserController.php on line 65.
+ 1 APPPATH\Controllers\UserController.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fisioterapeuta"', 'C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\app\\Controllers\\UserController.php', 65)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\public\\index.php')
+INFO - 2023-12-01 02:59:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-01 02:59:17 --> Undefined array key "ID_Fisioterapeuta"
+in APPPATH\Controllers\UserController.php on line 56.
+ 1 APPPATH\Controllers\UserController.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ID_Fisioterapeuta"', 'C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\app\\Controllers\\UserController.php', 56)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\public\\index.php')
+INFO - 2023-12-01 02:59:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-01 02:59:21 --> Undefined array key "ID_Fisioterapeuta"
+in APPPATH\Controllers\UserController.php on line 56.
+ 1 APPPATH\Controllers\UserController.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ID_Fisioterapeuta"', 'C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\app\\Controllers\\UserController.php', 56)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\public\\index.php')
+INFO - 2023-12-01 02:59:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 03:00:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-01 03:00:24 --> Undefined array key "ID_Usuario"
+in APPPATH\Controllers\UserController.php on line 55.
+ 1 APPPATH\Controllers\UserController.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ID_Usuario"', 'C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\app\\Controllers\\UserController.php', 55)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\public\\index.php')
+INFO - 2023-12-01 03:03:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 03:04:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 03:05:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 06:19:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 06:43:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 06:44:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 06:44:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 06:44:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 06:50:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 07:09:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 07:10:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-01 07:11:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

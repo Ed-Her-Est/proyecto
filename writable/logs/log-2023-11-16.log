@@ -1,0 +1,331 @@
+CRITICAL - 2023-11-16 01:42:24 --> Undefined property: stdClass::$apellido_paterno
+in APPPATH\Views\usuario\editar.php on line 17.
+ 1 APPPATH\Views\usuario\editar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$apellido_paterno', 'C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\app\\Views\\usuario\\editar.php', 17)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\app\\Views\\usuario\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('usuario/editar', [], true)
+ 5 APPPATH\Controllers\UserController.php(113): view('usuario/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\public\\index.php')
+CRITICAL - 2023-11-16 01:42:27 --> Undefined property: stdClass::$apellido_paterno
+in APPPATH\Views\usuario\editar.php on line 17.
+ 1 APPPATH\Views\usuario\editar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$apellido_paterno', 'C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\app\\Views\\usuario\\editar.php', 17)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\app\\Views\\usuario\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('usuario/editar', [], true)
+ 5 APPPATH\Controllers\UserController.php(113): view('usuario/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\public\\index.php')
+CRITICAL - 2023-11-16 02:05:53 --> Undefined property: stdClass::$apellido_paterno
+in APPPATH\Views\usuario\editar.php on line 17.
+ 1 APPPATH\Views\usuario\editar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$apellido_paterno', 'C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\app\\Views\\usuario\\editar.php', 17)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\app\\Views\\usuario\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('usuario/editar', [], true)
+ 5 APPPATH\Controllers\UserController.php(113): view('usuario/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\public\\index.php')
+CRITICAL - 2023-11-16 02:06:34 --> Undefined property: stdClass::$telefono
+in APPPATH\Views\usuario\editar.php on line 37.
+ 1 APPPATH\Views\usuario\editar.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$telefono', 'C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\app\\Views\\usuario\\editar.php', 37)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\app\\Views\\usuario\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('usuario/editar', [], true)
+ 5 APPPATH\Controllers\UserController.php(113): view('usuario/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\public\\index.php')
+CRITICAL - 2023-11-16 02:06:52 --> Undefined property: stdClass::$telefono
+in APPPATH\Views\usuario\editar.php on line 37.
+ 1 APPPATH\Views\usuario\editar.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$telefono', 'C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\app\\Views\\usuario\\editar.php', 37)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\app\\Views\\usuario\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('usuario/editar', [], true)
+ 5 APPPATH\Controllers\UserController.php(113): view('usuario/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\public\\index.php')
+CRITICAL - 2023-11-16 02:07:01 --> Undefined property: stdClass::$telefono
+in APPPATH\Views\usuario\editar.php on line 37.
+ 1 APPPATH\Views\usuario\editar.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$telefono', 'C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\app\\Views\\usuario\\editar.php', 37)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\app\\Views\\usuario\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('usuario/editar', [], true)
+ 5 APPPATH\Controllers\UserController.php(113): view('usuario/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\public\\index.php')
+CRITICAL - 2023-11-16 02:07:34 --> Undefined property: stdClass::$telefono
+in APPPATH\Views\usuario\editar.php on line 37.
+ 1 APPPATH\Views\usuario\editar.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$telefono', 'C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\app\\Views\\usuario\\editar.php', 37)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\app\\Views\\usuario\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('usuario/editar', [], true)
+ 5 APPPATH\Controllers\UserController.php(113): view('usuario/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\public\\index.php')
+CRITICAL - 2023-11-16 02:21:10 --> Undefined array key "apellido_paterno"
+in APPPATH\Controllers\UserController.php on line 122.
+ 1 APPPATH\Controllers\UserController.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "apellido_paterno"', 'C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\app\\Controllers\\UserController.php', 122)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->update()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\public\\index.php')
+CRITICAL - 2023-11-16 02:25:44 --> Undefined array key "telefono"
+in APPPATH\Controllers\UserController.php on line 127.
+ 1 APPPATH\Controllers\UserController.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "telefono"', 'C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\app\\Controllers\\UserController.php', 127)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->update()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\public\\index.php')
+CRITICAL - 2023-11-16 02:26:07 --> Undefined array key "ID_Usuario"
+in APPPATH\Controllers\UserController.php on line 129.
+ 1 APPPATH\Controllers\UserController.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ID_Usuario"', 'C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\app\\Controllers\\UserController.php', 129)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->update()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\public\\index.php')
+CRITICAL - 2023-11-16 02:26:22 --> Allowed fields must be specified for model: "App\Models\UserModel"
+in SYSTEMPATH\BaseModel.php on line 1257.
+ 1 SYSTEMPATH\BaseModel.php(1257): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\UserModel')
+ 2 SYSTEMPATH\BaseModel.php(925): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [...])
+ 4 APPPATH\Controllers\UserController.php(129): CodeIgniter\Model->update('8', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->update()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\public\\index.php')
+CRITICAL - 2023-11-16 02:26:37 --> Undefined array key ""
+in APPPATH\Controllers\UserController.php on line 129.
+ 1 APPPATH\Controllers\UserController.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key ""', 'C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\app\\Controllers\\UserController.php', 129)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->update()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\public\\index.php')
+CRITICAL - 2023-11-16 02:27:03 --> Undefined array key "ID_Usuario"
+in APPPATH\Controllers\UserController.php on line 129.
+ 1 APPPATH\Controllers\UserController.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ID_Usuario"', 'C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\app\\Controllers\\UserController.php', 129)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->update()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\public\\index.php')
+CRITICAL - 2023-11-16 03:28:52 --> Undefined array key "ID_Usuario"
+in APPPATH\Controllers\UserController.php on line 129.
+ 1 APPPATH\Controllers\UserController.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ID_Usuario"', 'C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\app\\Controllers\\UserController.php', 129)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->update()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\public\\index.php')
+CRITICAL - 2023-11-16 03:29:12 --> Allowed fields must be specified for model: "App\Models\UserModel"
+in SYSTEMPATH\BaseModel.php on line 1257.
+ 1 SYSTEMPATH\BaseModel.php(1257): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\UserModel')
+ 2 SYSTEMPATH\BaseModel.php(925): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [...])
+ 4 APPPATH\Controllers\UserController.php(129): CodeIgniter\Model->update('juanperez', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->update()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\public\\index.php')
+CRITICAL - 2023-11-16 03:29:25 --> Undefined array key "Usuario"
+in APPPATH\Controllers\UserController.php on line 129.
+ 1 APPPATH\Controllers\UserController.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Usuario"', 'C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\app\\Controllers\\UserController.php', 129)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->update()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\public\\index.php')
+CRITICAL - 2023-11-16 03:29:39 --> Allowed fields must be specified for model: "App\Models\UserModel"
+in SYSTEMPATH\BaseModel.php on line 1257.
+ 1 SYSTEMPATH\BaseModel.php(1257): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\UserModel')
+ 2 SYSTEMPATH\BaseModel.php(925): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [...])
+ 4 APPPATH\Controllers\UserController.php(129): CodeIgniter\Model->update('Juan', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->update()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\public\\index.php')
+CRITICAL - 2023-11-16 03:29:48 --> Allowed fields must be specified for model: "App\Models\UserModel"
+in SYSTEMPATH\BaseModel.php on line 1257.
+ 1 SYSTEMPATH\BaseModel.php(1257): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\UserModel')
+ 2 SYSTEMPATH\BaseModel.php(925): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [...])
+ 4 APPPATH\Controllers\UserController.php(129): CodeIgniter\Model->update('1', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->update()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\public\\index.php')
+CRITICAL - 2023-11-16 03:29:52 --> Allowed fields must be specified for model: "App\Models\UserModel"
+in SYSTEMPATH\BaseModel.php on line 1257.
+ 1 SYSTEMPATH\BaseModel.php(1257): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\UserModel')
+ 2 SYSTEMPATH\BaseModel.php(925): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [...])
+ 4 APPPATH\Controllers\UserController.php(129): CodeIgniter\Model->update('1', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->update()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\public\\index.php')
+CRITICAL - 2023-11-16 04:12:00 --> Call to a member function findAll() on null
+in APPPATH\Controllers\Usuario.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuario->mostrar()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\public\\index.php')
+CRITICAL - 2023-11-16 04:32:34 --> Undefined array key "apellido"
+in APPPATH\Controllers\Usuario.php on line 70.
+ 1 APPPATH\Controllers\Usuario.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "apellido"', 'C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\app\\Controllers\\Usuario.php', 70)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuario->update()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\public\\index.php')
+CRITICAL - 2023-11-16 04:35:44 --> Undefined array key "apellido"
+in APPPATH\Controllers\Usuario.php on line 70.
+ 1 APPPATH\Controllers\Usuario.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "apellido"', 'C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\app\\Controllers\\Usuario.php', 70)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuario->update()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\public\\index.php')
+CRITICAL - 2023-11-16 17:21:45 --> Undefined array key "apellido"
+in APPPATH\Controllers\Usuario.php on line 70.
+ 1 APPPATH\Controllers\Usuario.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "apellido"', 'C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\app\\Controllers\\Usuario.php', 70)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuario->update()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\public\\index.php')
+CRITICAL - 2023-11-16 17:49:15 --> Undefined array key "apellido"
+in APPPATH\Controllers\Usuario.php on line 73.
+ 1 APPPATH\Controllers\Usuario.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "apellido"', 'C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\app\\Controllers\\Usuario.php', 73)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuario->update()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\public\\index.php')
+CRITICAL - 2023-11-16 17:50:41 --> Undefined array key "email"
+in APPPATH\Controllers\Usuario.php on line 77.
+ 1 APPPATH\Controllers\Usuario.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "email"', 'C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\app\\Controllers\\Usuario.php', 77)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuario->update()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\public\\index.php')
+CRITICAL - 2023-11-16 17:50:45 --> Undefined array key "email"
+in APPPATH\Controllers\Usuario.php on line 77.
+ 1 APPPATH\Controllers\Usuario.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "email"', 'C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\app\\Controllers\\Usuario.php', 77)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuario->update()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\public\\index.php')
+CRITICAL - 2023-11-16 17:51:02 --> Undefined array key "email"
+in APPPATH\Controllers\Usuario.php on line 77.
+ 1 APPPATH\Controllers\Usuario.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "email"', 'C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\app\\Controllers\\Usuario.php', 77)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuario->update()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\public\\index.php')
+CRITICAL - 2023-11-16 17:51:11 --> Allowed fields must be specified for model: "App\Models\UserModel"
+in SYSTEMPATH\BaseModel.php on line 1257.
+ 1 SYSTEMPATH\BaseModel.php(1257): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\UserModel')
+ 2 SYSTEMPATH\BaseModel.php(925): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [...])
+ 4 APPPATH\Controllers\Usuario.php(79): CodeIgniter\Model->update('1', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuario->update()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\public\\index.php')
+CRITICAL - 2023-11-16 17:51:28 --> Allowed fields must be specified for model: "App\Models\UserModel"
+in SYSTEMPATH\BaseModel.php on line 1257.
+ 1 SYSTEMPATH\BaseModel.php(1257): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\UserModel')
+ 2 SYSTEMPATH\BaseModel.php(925): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [...])
+ 4 APPPATH\Controllers\Usuario.php(79): CodeIgniter\Model->update('1', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuario->update()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\public\\index.php')
+CRITICAL - 2023-11-16 17:53:21 --> Allowed fields must be specified for model: "App\Models\UsuarioModel"
+in SYSTEMPATH\BaseModel.php on line 1257.
+ 1 SYSTEMPATH\BaseModel.php(1257): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\UsuarioModel')
+ 2 SYSTEMPATH\BaseModel.php(925): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [...])
+ 4 APPPATH\Controllers\Usuario.php(79): CodeIgniter\Model->update('1', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuario->update()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\public\\index.php')
+CRITICAL - 2023-11-16 18:02:15 --> Undefined array key "ID_Usuario"
+in APPPATH\Controllers\Usuario.php on line 79.
+ 1 APPPATH\Controllers\Usuario.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ID_Usuario"', 'C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\app\\Controllers\\Usuario.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuario->update()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\public\\index.php')
+CRITICAL - 2023-11-16 18:06:01 --> Undefined array key "ID_Usuario"
+in APPPATH\Controllers\Usuario.php on line 79.
+ 1 APPPATH\Controllers\Usuario.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ID_Usuario"', 'C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\app\\Controllers\\Usuario.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuario->update()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\public\\index.php')
+CRITICAL - 2023-11-16 18:06:22 --> Undefined array key "ID_Usuario"
+in APPPATH\Controllers\Usuario.php on line 79.
+ 1 APPPATH\Controllers\Usuario.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ID_Usuario"', 'C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\app\\Controllers\\Usuario.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuario->update()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\public\\index.php')
+CRITICAL - 2023-11-16 18:09:28 --> Undefined array key "ID_Usuario"
+in APPPATH\Controllers\Usuario.php on line 79.
+ 1 APPPATH\Controllers\Usuario.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ID_Usuario"', 'C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\app\\Controllers\\Usuario.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuario->update()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\public\\index.php')
+CRITICAL - 2023-11-16 18:13:07 --> Undefined array key "ID_Usuario"
+in APPPATH\Controllers\Usuario.php on line 79.
+ 1 APPPATH\Controllers\Usuario.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ID_Usuario"', 'C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\app\\Controllers\\Usuario.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuario->update()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ED HER EST\\Documents\\proyectoFisio\\public\\index.php')
